@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculate">
+        <div class="display">
+            <input type="text" id="display-inp" disabled>
+        </div>
+        <div class="btnparent">
+            <button onclick="getVal(1)">1</button>
+            <button onclick="getVal(2)">2</button>
+            <button onclick="getVal(3)">3</button>
+            <button onclick="getVal('+')" class="exp">+</button>
+            <button onclick="getVal(4)">4</button>
+            <button onclick="getVal(5)">5</button>
+            <button onclick="getVal(6)">6</button>
+            <button onclick="getVal('-')" class="exp">-</button>
+            <button onclick="getVal(7)">7</button>
+            <button onclick="getVal(8)">8</button>
+            <button onclick="getVal(9)">9</button>
+            <button onclick="getVal('*')" class="exp">x</button>
+            <button onclick="getVal(0)">0</button>
+            <button onclick="getVal('/')" class="exp">/</button>
+            <button onclick="calculate()" class="exp">=</button>
+            <button onclick="clearAll()" class="exp">C</button>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

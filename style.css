@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.calculate{
+    width: 270px;
+    margin: 20px auto;
+    background-color: rgb(53, 53, 53);
+    border: 1px solid black;
+    border-radius: 10px ;
+
+}
+.display{
+    padding: 10px;
+}
+.display input{
+    width: 100%;
+    background-color: gray;
+    text-align: right;
+    padding: 10px 3px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+.btnparent button{
+    width: 59px;
+    height: 59px;
+    font-size: 18px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.btnparent .exp{
+    background-color: orange;
+}
